@@ -1,0 +1,11 @@
+[
+    {
+        "id": "goal-uuid",
+        "userId": "user-uuid",
+        "name": "Emergency Fund",
+        "targetAmount": 10000,
+        "currentAmount": 0,
+        "deadline": "2025-12-31",
+        "createdAt": "2025-01-01T12:00:00Z"
+    }
+]

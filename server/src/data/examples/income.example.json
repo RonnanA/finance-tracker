@@ -1,0 +1,11 @@
+[
+    {
+        "id": "income-uuid",
+        "userId": "user-uuid",
+        "accountId": "account-uuid",
+        "amount": 3000,
+        "source": "Paycheque",
+        "payDate": "2025-12-18",
+        "createdAt": "2025-12-20T12:00:00Z"
+    }
+]

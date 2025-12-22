@@ -1,0 +1,10 @@
+[
+    {
+        "id": "account-uuid",
+        "userId": "user-uuid",
+        "name": "Chequing Account",
+        "type": "chequing",
+        "institution": "My Bank",
+        "createdAt": "2025-12-20T12:00:00Z"
+    }
+]

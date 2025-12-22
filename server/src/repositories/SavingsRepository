@@ -1,0 +1,7 @@
+import { Savings } from "../domain/Savings";
+
+export interface SavingsRepository {
+    findByUserId(userId: string): Promise<Savings[]>;
+    create(savings: Savings): Promise<void>;
+    delete(id: string): Promise<void>;
+}

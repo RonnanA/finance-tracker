@@ -1,5 +1,7 @@
 // Test frontend to backend connection
 import { useEffect, useState } from "react"
+import Login from "./pages/Login";
+
 
 function App() {
   const [status, setStatus] = useState('');
@@ -12,8 +14,12 @@ function App() {
 
   return(
     <div>
-      <h1>Finance Tracker</h1>
-      <p>Backend Status: {status}</p>
+      <h1 style={{ textAlign: "center" }}>Finance Tracker</h1>
+      <p style={{ textAlign: "center" }}>
+        Backend Status: {status}
+      </p>
+
+      <Login />
     </div>
   );
 }
